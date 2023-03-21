@@ -95,6 +95,7 @@ export interface ReactDatePickerProps<
     filterTime?(date: Date): boolean;
     fixedHeight?: boolean | undefined;
     forceShowMonthNavigation?: boolean | undefined;
+    form?: string | undefined;
     formatWeekDay?(day: Date, locale: Locale): React.ReactNode;
     formatWeekNumber?(date: Date): string | number;
     highlightDates?: Array<HighlightDates | Date> | undefined;
